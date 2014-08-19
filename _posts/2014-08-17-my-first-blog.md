@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My first blog on Github!!
-category: programming
+tags: [testtag]
 ---
 
 I have been interested in writing blogs on Github for a while. However after poked around in some articles on the Internet, I gave up since they had always asked to setup Jekyll environment locally first (I have so many client devices...) 
