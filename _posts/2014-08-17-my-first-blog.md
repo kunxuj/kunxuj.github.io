@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first blog on Github!!
+title: My first blog on Github!
 tags: [testtag]
 ---
 
