@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a software developer with more than ten years experience, I love coding and writing!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+I have been working in software development (mainly in backend areas) for more than ten years. Though I still focus on backend development, I also have been interested in front end technologies. Recent focuses are Java, Pyhton, Node.js, Event Driven Programming and multi-threading programming.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[jordanxu2014@gmail.com](mailto:jordanxu2014@gmail.com)
