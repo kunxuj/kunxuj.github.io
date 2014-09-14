@@ -4,8 +4,8 @@ title: Categories
 ---
 
 <div id="categories">
-    <h1>Articles by categories</h1>
-	{% for cat in site.categories %}
+    <h1>Articles by category</h1>
+	{% for cat in site.category %}
 	{% if cat[0] != 'blog' %}
 	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
 	<table class="sublist">
