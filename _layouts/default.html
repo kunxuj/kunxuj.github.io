@@ -19,9 +19,12 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="/assets/css/pygments.css"/>
+<!-- 	<script type="text/javascript" src="/assets/js/main.js"></script> -->
   </head>
 
-  <body>
+  <body data-showToc="{% if page.showToc %}true{% else %}false{% endif %}">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -35,22 +38,23 @@
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/angularjs-site/index.html">Test</a>
+<!--             <a href="{{ site.baseurl }}/angularjs-site/index.html">Test</a> -->
           </nav>
         </header>
       </div>
     </div>
 
     <div id="main" role="main" class="container">
+      {% include sidebar.html %}
       {{ content }}
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
+      <!-- div class="container"-->
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
-      </div>
+<!--       </div> -->
     </div>
 
     {% include analytics.html %}

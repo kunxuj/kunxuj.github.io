@@ -1,0 +1,18 @@
+---
+layout: default
+title: Categories
+---
+
+<div id="categories">
+    <h1>Articles by categories</h1>
+	{% for cat in site.categories %}
+	{% if cat[0] != 'blog' %}
+	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
+	<table class="sublist">
+		{% for f in cat[1] %}
+		<tr><td><a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}</td></tr>
+		{% endfor %}
+	</table>
+	{% endif %}
+	{% endfor %}
+</div>
