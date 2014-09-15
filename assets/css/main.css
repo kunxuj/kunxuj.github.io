@@ -11,12 +11,13 @@ a:visited{
     color: navy;
 }
 
+/*
 h1,h2,h3,h4{
     min-width:10%;
     max-height: 100%;
     overflow: auto;
     /*border: 1px solid #7f804b;*/
-    background: #fff6e6;
+    background: #e9fefa;
     border-radius: 0px 15 0 15px;
     margin: 6px;
     padding: 6px 6px 6px 8px;
@@ -40,6 +41,24 @@ h5{
 h6{
 	padding-left:36px;
 }
+*/
+
+
+.site-name {
+  margin: 0;
+  color: #70d6e1;
+  font-family: $helveticaNeue; 
+  cursor: pointer; 
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.site-description {
+  margin: -5px 0 0 0;
+  color: #70d6e1;
+  font-size: 16px;
+  
+}
 #siteName{
     color: #fafad2;
     font-weight: bold;
@@ -57,12 +76,12 @@ h6{
 .sidebar{
     position: relative;
     float: right;
-    background: #f4fff5;
+    background: #c1ffeb;
     border-radius: 10px 0 0 10px;
     border: solid 1px #add8e6;
     padding: 3px 6px;
     margin: 6px 0 20px 12px;
-    min-width: 100px;
+    min-width: 150px;
     clear: right;
     font-size: smaller;
     line-height:1.2 em;
@@ -91,7 +110,7 @@ h6{
 
     padding:4px 4px 4px 6px;
     color: navy;
-    background: rgba(216, 238, 197, 0.92);
+    background: #82b7c9;
     border-radius: 10px 0 0 10px;
 }
 .sidebar ul{
@@ -107,22 +126,32 @@ h6{
 .sidebar h4{
 	cursor: pointer;
 }
-.footer{
-    text-align: right;
-    clear: both;
-    font-size: x-small;
-    color: rgba(123, 98, 51, 0.90);
-}
+/* .footer{ */
+/*     text-align: right; */
+/*     clear: both; */
+/*     font-size: x-small; */
+/*     color: rgba(123, 98, 51, 0.90); */
+/* } */
+
+/* .footer { */
+/*   margin-top: 10px; */
+/*   border-top: 1px solid #98c4d4; */
+/*   border-bottom: 1px solid #ddd; */
+/*   background-color: $lightGray; */
+/* } */
 .container{
-    border-left: 1px solid grey;
+   /* border-left: 1px solid grey;*/
     border-bottom: 1px solid grey;
     border-radius: 0 0 0 15px;
+    padding: 0px 50px;
+/*     max-width: 1440px; */
+/*     width: 100%; */
     overflow: auto;
 }
 .header{
-    background: #2f4f4f;
+    background: #70d6e1;
     color: white;
-    height: 2em;
+    height: 4em;
     margin: 0px;
     padding: 3px 10px;
     border-radius: 0 0 0 15px;
@@ -167,11 +196,12 @@ li.menu_item{
 .content{
     padding: 16px;
 
+}
 
-}
-.container{
-    background: #fefff3;
-}
+/* .container{ */
+/*     background: #e2fffe; */
+/* } */
+
 code{
     color: #14698b;
     padding: 5px;
