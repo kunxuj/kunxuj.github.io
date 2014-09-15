@@ -1,6 +1,6 @@
 This repository is for [my GitHub blog site](http://kunxuj.github.io/) 
 
-For the history of this repository, please read my blogs [here](http://kunxuj.github.io/my-first-blog/) and [there]() 
+For the history of this repository, please read my blogs [here](http://kunxuj.github.io/my-first-blog/) and [there](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/) 
 
 
 ## Quick Start 
