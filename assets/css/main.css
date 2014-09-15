@@ -255,6 +255,27 @@ td,th{
     padding: 2px 4px 2px 4px;
     text-align: left;
 }
+
+.categories{
+    padding: 0 0 2px 0px;
+    color: #647779;
+    font-size: x-small;
+}
+.category{
+
+
+    border: 1px solid #008080;
+    background: #84eeff;
+    padding: 2px 4px ;
+    border-radius:  6px 0 6px 0;
+    margin: 2px 3px 2px 2px;
+
+}
+.category a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 .tags{
     padding: 0 0 2px 0px;
     color: #647779;
@@ -264,7 +285,7 @@ td,th{
 
 
     border: 1px solid #008080;
-    background: #FFFFE7;
+    background: #84eeff;
     padding: 2px 4px ;
     border-radius:  6px 0 6px 0;
     margin: 2px 3px 2px 2px;
