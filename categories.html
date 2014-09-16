@@ -5,14 +5,17 @@ title: Categories
 
 <div id="categories">
     <h1>Articles by category</h1>
-	{% for cat in site.categories %}
+	{% for cat in site.categories %}	
 	{% if cat[0] != 'blog' %}
-	<h3><a id="{{cat[0]}}" >{{cat[0]}}</a></h3>
+	<div id="{{cat[0]}}" style="display:none">
+	<h2>Category: "{{cat[0]}}"</h2>
 	<table class="sublist">
 		{% for f in cat[1] %}
 		<tr><td><a href="{{f.url}}">{{ f.title }}</a></td><td>{{ f.date |date: "%Y/%m/%d"}}</td></tr>
 		{% endfor %}
 	</table>
+	</div>
 	{% endif %}
 	{% endfor %}
 </div>
+{% include tags_common.html %}

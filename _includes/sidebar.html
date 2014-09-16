@@ -6,7 +6,7 @@
 		<ul>
 			{% for category in site.categories %}
 			<li>
-				<a href="/categories.html#{{ category[0] }}">
+				<a onclick="redirect('/categories.html#{{ category[0] }}')"> 
 				{% if page.categories contains category[0] %}
 				<b>{{ category[0] }}</b>
 				{% else %}
@@ -54,7 +54,9 @@
 
 	function redirect(url){
 		//alert(url);
-		window.location.assign(url);
+		window.history.pushState('test', "Title", url);
+		window.location.href=url;
+		window.location.reload();
 	}
 	
 </script>
