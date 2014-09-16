@@ -1,7 +1,10 @@
 body{
     margin: 0;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 0px 0px 0px;
     line-height: 1.5em;
+    background: $white;
+    font: 18px/1.4 $helvetica;
+    color: $darkGray;
 }
 a {
     text-decoration: none;
@@ -11,47 +14,47 @@ a:visited{
     color: navy;
 }
 
-/*
-h1,h2,h3,h4{
-    min-width:10%;
-    max-height: 100%;
-    overflow: auto;
-    /*border: 1px solid #7f804b;*/
-    background: #e9fefa;
-    border-radius: 0px 15 0 15px;
-    margin: 6px;
-    padding: 6px 6px 6px 8px;
-}
-h5,h6{
-    margin:6px;
-    padding: 6px 6px 6px 10px;
-}
-h2{
-	padding-left: 12px;
-}
-h3{
-	padding-left:18px;	
-}
-h4{
-	padding-left:24px;
-}
-h5{
-	padding-left:30px;
-}
-h6{
-	padding-left:36px;
-}
-*/
+
+/* h1,h2,h3,h4{ */
+/*     min-width:10%; */
+/*     max-height: 100%; */
+/*     overflow: auto; */
+/*     border: 1px solid #7f804b; */
+/*     background: #e9fefa; */
+/*     border-radius: 0px 15 0 15px; */
+/*     margin: 6px; */
+/*     padding: 6px 6px 6px 8px; */
+/* } */
+/* h5,h6{ */
+/*     margin:6px; */
+/*     padding: 6px 6px 6px 10px; */
+/* } */
+/* h2{ */
+/* 	padding-left: 12px; */
+/* } */
+/* h3{ */
+/* 	padding-left:18px;	 */
+/* } */
+/* h4{ */
+/* 	padding-left:24px; */
+/* } */
+/* h5{ */
+/* 	padding-left:30px; */
+/* } */
+/* h6{ */
+/* 	padding-left:36px; */
+/* } */
+
 
 
 .site-name {
-  margin: 0;
+  margin: 15px;
   color: #70d6e1;
   font-family: $helveticaNeue; 
   cursor: pointer; 
   font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 1px;
+  font-size: 32px;
+/*   letter-spacing: 1px; */
 }
 .site-description {
   margin: -5px 0 0 0;
@@ -77,13 +80,13 @@ h6{
     position: relative;
     float: right;
     background: #c1ffeb;
-    border-radius: 10px 0 0 10px;
+/*     border-radius: 10px 0 0 10px; */
     border: solid 1px #add8e6;
-    padding: 3px 6px;
-    margin: 6px 0 20px 12px;
+    padding: 0px 6px;
+/*     margin: 6px 0 20px 12px; */
     min-width: 150px;
     clear: right;
-    font-size: smaller;
+    font-size: 20px;
     line-height:1.2 em;
     /*height: 95%;*/
 
@@ -110,8 +113,8 @@ h6{
 
     padding:4px 4px 4px 6px;
     color: navy;
-    background: #82b7c9;
-    border-radius: 10px 0 0 10px;
+/*     background: #82b7c9; */
+/*     border-radius: 10px 0 0 10px; */
 }
 .sidebar ul{
     width: 100%;
@@ -141,9 +144,9 @@ h6{
 /* } */
 .container{
    /* border-left: 1px solid grey;*/
-    border-bottom: 1px solid grey;
-    border-radius: 0 0 0 15px;
-    padding: 0px 50px;
+   /* border-bottom: 1px solid grey;*/
+    border-radius: 0 0 0 0px;
+    padding: 10px 130px;
 /*     max-width: 1440px; */
 /*     width: 100%; */
     overflow: auto;
@@ -153,10 +156,11 @@ h6{
     color: white;
     height: 4em;
     margin: 0px;
-    padding: 3px 10px;
-    border-radius: 0 0 0 15px;
+    padding: 3px 100px;
+    border-radius: 0 0 0 0px;
 }
 .menu {
+	 padding: 30px 10px;
     list-style: none;
     position: relative;
     right: 0px;
