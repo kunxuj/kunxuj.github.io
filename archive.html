@@ -12,7 +12,7 @@ title: Archive
 	{% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
   
 	{% if forloop.first %}
-	<h1>Articles by year</h1>
+	<h1>Articles by a year</h1>
 	  <h2 id="{{this_year}}">{{this_year}}</h2>
 	  <h3>{{this_month}}</h3>
 	  <ul>
