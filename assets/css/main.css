@@ -53,7 +53,7 @@ a:visited{
   font-family: $helveticaNeue; 
   cursor: pointer; 
   font-weight: 400;
-  font-size: 32px;
+  font-size: 36px;
 /*   letter-spacing: 1px; */
 }
 .site-description {
@@ -142,8 +142,17 @@ a:visited{
 /*   border-bottom: 1px solid #ddd; */
 /*   background-color: $lightGray; */
 /* } */
+
 .container{
    /* border-left: 1px solid grey;*/
+   /* border-bottom: 1px solid grey;*/
+    border-radius: 0 0 0 0px;
+    padding: 10px 160px;
+    overflow: auto;
+}
+
+.content{
+    /* border-left: 1px solid grey;*/
    /* border-bottom: 1px solid grey;*/
     border-radius: 0 0 0 0px;
     padding: 10px 160px;
@@ -151,12 +160,14 @@ a:visited{
 /*     width: 100%; */
     overflow: auto;
 }
+
+
 .header{
     background: #70d6e1;
     color: white;
     height: 4em;
     margin: 0px;
-    padding: 3px 100px;
+    padding: 3px 240px;
     border-radius: 0 0 0 0px;
 }
 .menu {
@@ -197,10 +208,7 @@ li.menu_item{
     /*font-weight: bold;*/
 }
 
-.content{
-    padding: 16px;
 
-}
 
 /* .container{ */
 /*     background: #e2fffe; */
