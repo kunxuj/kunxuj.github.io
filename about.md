@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-I'm a software developer with more than ten years experience, I love coding and writing!
+I'm a software developer, and enjoy coding and writing just like enjoy sports!
+This blog site is only for my own entertainment purpose. If it can help other readers, I will be very happy!
 
 ### More Information
 
-I have been working in software development (mainly in backend areas) for more than ten years. Though I still focus on backend development, I also have been interested in front end technologies. Recent focuses are Java, Pyhton, Node.js, Event Driven Programming and multi-threading programming.
+I have been working in software development industry for more than ten years. I got involved into different business domains in different companies. Though my current job is mainly on back-end development, such as Java, Pyhton, Node.js, Event Driven Programming and multi-threading programming, I also spend some spare time on front end technologies.
 
 ### Contact me
 
