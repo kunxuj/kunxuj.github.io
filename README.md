@@ -1,7 +1,9 @@
 This repository is for [my GitHub blog site](http://kunxuj.github.io/) 
 
-For the history of this repository, please read my blogs [here](http://kunxuj.github.io/my-first-blog/) and [there](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/) 
-
+For the history of improvement of this repository, please read my blogs: 
+   - [Writing my first Github blog without installation of Jekyll locally!](http://kunxuj.github.io/my-first-blog/)
+   - [Add a (categories/tags/archive) sidebar in my blog pages](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/) 
+   - [Some thoughts about improvement of my blog site](http://kunxuj.github.io/some-thoughts-about-improvement-of-my-blog-site/)
 
 ## Quick Start 
 
@@ -32,5 +34,6 @@ such as "name", "email", etc.
 ## Credits
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to it's creators, contributors and maintainers.
-- [blankego's personal website](https://github.com/blankego/blankego.github.com) - Thanks to it's creators, contributors and maintainers.. 
+- [Jekyll Now](https://github.com/barryclark/jekyll-now) - Thanks to it's creators, contributors and maintainers.
+- [blankego's personal website](https://github.com/blankego/blankego.github.com) - Thanks to it's creators, contributors and maintainers.
 

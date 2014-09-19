@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add a sidebar in my blog pages
+title: Adding a sidebar with categories, Tags, and Archive sections into my blog pages
 tags: [jekyll]
 categories:
 - website
