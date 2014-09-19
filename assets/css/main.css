@@ -53,7 +53,7 @@ a:visited{
   font-family: $helveticaNeue; 
   cursor: pointer; 
   font-weight: 400;
-  font-size: 32px;
+  font-size: 36px;
 /*   letter-spacing: 1px; */
 }
 .site-description {
@@ -79,12 +79,12 @@ a:visited{
 .sidebar{
     position: relative;
     float: right;
-    background: #c1ffeb;
+    background: #70d6e1;
 /*     border-radius: 10px 0 0 10px; */
     border: solid 1px #add8e6;
-    padding: 0px 6px;
-/*     margin: 6px 0 20px 12px; */
-    min-width: 150px;
+    padding: 10px 16px;
+    margin: 20px 0 20px 10px;
+    min-width: 250px;
     clear: right;
     font-size: 20px;
     line-height:1.2 em;
@@ -142,21 +142,32 @@ a:visited{
 /*   border-bottom: 1px solid #ddd; */
 /*   background-color: $lightGray; */
 /* } */
+
 .container{
    /* border-left: 1px solid grey;*/
    /* border-bottom: 1px solid grey;*/
     border-radius: 0 0 0 0px;
-    padding: 10px 130px;
+    padding: 10px 160px;
+    overflow: auto;
+}
+
+.content{
+    /* border-left: 1px solid grey;*/
+   /* border-bottom: 1px solid grey;*/
+    border-radius: 0 0 0 0px;
+    padding: 10px 160px;
 /*     max-width: 1440px; */
 /*     width: 100%; */
     overflow: auto;
 }
+
+
 .header{
     background: #70d6e1;
     color: white;
     height: 4em;
     margin: 0px;
-    padding: 3px 100px;
+    padding: 3.5px 170px 2.5px 300px;
     border-radius: 0 0 0 0px;
 }
 .menu {
@@ -197,10 +208,7 @@ li.menu_item{
     /*font-weight: bold;*/
 }
 
-.content{
-    padding: 16px;
 
-}
 
 /* .container{ */
 /*     background: #e2fffe; */

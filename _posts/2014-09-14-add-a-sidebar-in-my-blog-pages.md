@@ -26,15 +26,15 @@ When I used the sidebar, I wanted to click one category/tag to see a page only c
 ##3. Change the way to add a tag in the blog. 
 In my [first blog](http://kunxuj.github.io/my-first-blog/), I mentioned that I had used some workround to add a tag for a post, which was too cumbersome. Now I use the method from  [this site](http://blankego.github.io/index.html), then adding a tag or category is very easy: just add a tag or catgory in the post prefix part, for example for this post: 
 
-```
----   
+>
+\-\-\-   
 layout: post   
 title: Add a sidebar in my blog pages   
 tags: [jekyll]   
 categories:  
 - website  
 --- 
-```  
+> 
 
 ##To do:
 Although I'm very happy that my blog pages have a side bar, there are still some more works to be done to have a better user experience. When I have time, I will  
