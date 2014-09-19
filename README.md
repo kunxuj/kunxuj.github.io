@@ -2,8 +2,8 @@ This repository is for [my GitHub blog site](http://kunxuj.github.io/)
 
 For the history of improvement of this repository, please read my blogs: 
    - [Writing my first Github blog without installation of Jekyll locally!](http://kunxuj.github.io/my-first-blog/)
-   - [Add a (categories/tags/archive) sidebar in my blog pages](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/) 
-   - [Some thoughts about improvement of my blog site](http://kunxuj.github.io/some-thoughts-about-improvement-of-my-blog-site/)
+   - [Adding a sidebar with categories, Tags, and Archive sections into my blog pages](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/) 
+   - [Improving my blog site continuously](http://kunxuj.github.io/some-thoughts-about-improvement-of-my-blog-site/)
 
 ## Quick Start 
 
