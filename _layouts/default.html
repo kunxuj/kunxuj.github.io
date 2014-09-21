@@ -25,40 +25,52 @@
   </head>
 
   <body data-showToc="{% if page.showToc %}true{% else %}false{% endif %}">
-    <div class="wrapper-masthead">
+  <div class="container">
       <div class="masthead">
-        <header class="header">
-<!--           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-<!--             <a href="{{ site.baseurl }}/angularjs-site/index.html">Test</a> -->
-          </nav>
-        </header>
-      </div>
+
+			<div class="header">
+				<div class="header_clumn_1">c1</div>
+				<div class="header_clumn_2">c2
+					<!--           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a> -->
+				</div>
+				<div class="header_clumn_3">c3</div>
+				<div class="header_clumn_4">
+					<div class="site-info">
+						<h1 class="site-name">
+							<a href="{{ site.baseurl }}/">{{ site.name }}</a>
+						</h1>
+						<p class="site-description">{{ site.description }}</p>
+					</div>
+				</div>
+				<div class="header_clumn_5">c5</div>
+				<div class="header_clumn_6">
+					<nav>
+						<a href="{{ site.baseurl }}/">Blog</a> 
+						<a href="{{ site.baseurl }}/about">About</a>
+						<!--             <a href="{{ site.baseurl }}/angularjs-site/index.html">Test</a> -->
+					</nav>
+				</div>
+				<div class="header_clumn_7">c7</div>
+
+			</div>
     </div>
 
-    <div  class="container">
-    {% include sidebar.html %}
-    <div id="main" role="main" class="content">
-      {{ content }}
-     </div>
-    </div>
+	<div class="container_content">
+		<div class="container_clumn_1">test1</div>
+		<div class="container_clumn_2">
+			<div id="main" role="main" class="content">{{ content }}</div>
+		</div>
+		<div class="container_clumn_3">test3</div>
+		<div class="container_clumn_4">{% include sidebar.html %}</div>
+		<div class="container_clumn_5">test5</div>
+	</div>
 
-    <div class="wrapper-footer">
-      <!-- div class="container"-->
+	<div class="wrapper-footer">
         <footer class="footer">
           {% include svg-icons.html %}
         </footer>
-<!--       </div> -->
     </div>
-
+   </div>
     {% include analytics.html %}
   </body>
 </html>
