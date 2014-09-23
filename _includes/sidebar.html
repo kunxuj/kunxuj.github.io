@@ -19,9 +19,9 @@
 		</ul>
 		<hr/>
 		<h4>Tags</h4>
-		<ul>
+		<ul class="sidebar_tags">
 			{% for tag in site.tags %}
-			<li>
+<!-- 			<li> -->
 				<a onclick="redirect('/tags.html#{{ tag[0] }}')">
 <!-- 				<a href="/blog/tag/testtag#{{ tag[0] }}"> -->
 				{% if page.tags contains tag[0] %}
@@ -32,7 +32,7 @@
 				</a>
 				<sup>[{{ tag[1].size }}]</sup>
 
-			</li>
+<!-- 			</li> -->
 			{% endfor %}
 		</ul>
 		<hr/>

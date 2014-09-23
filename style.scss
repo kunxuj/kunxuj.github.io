@@ -14,24 +14,18 @@
 /**************/
 
 html {
-  font-size: 22px;
+  font-size: 100%;
 }
 
-/*
-body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+body{
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    line-height: 1.5em;
+    background: $white;
+    font: 18px/1.4 $helvetica;
+    color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1640px;
-  padding: 0 10px;
-  width: 100%;
-  background: #e2fffe;
-}
-*/
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -145,13 +139,16 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
 
-.wrapper-masthead {
-  margin-bottom: 0px;
+.container{
+    width:100%;
+    position:relative;
+    top:0px;
+    right: 0px;
+    left:0px;
+    bottom: 0px;
 }
+
 
 .masthead {
   padding: 0px 0;
@@ -162,11 +159,85 @@ img {
   }
 }
 
+.header{
+    background: #70d6e1;
+    color: white;
+    height: 4em;
+    margin: 0px;
+    //padding: 3.5px 170px 2.5px 300px;
+    border-radius: 0 0 0 0px;
+    //width: 100%;
+}
+
+.header_clumn_1{
+    visibility: hidden;
+    width: 5%;
+    float: left;
+    
+    @include mobile {
+        width: 2%;
+  }
+}
+.header_clumn_2{//avator
+    visibility: hidden;
+    width: 10%;
+    float: left;
+    
+    @include mobile {
+      width: 5%;
+  }
+}
+.header_clumn_3{ 
+    visibility: hidden;
+    width: 5%;
+    float: left;
+    
+     @include mobile {
+         width: 2%;
+  }
+}
+.header_clumn_4{//site name and description
+    width: 45%;
+    float: left;
+    
+     @include mobile {
+         width: 40%;
+  }
+}
+.header_clumn_5{
+    visibility: hidden;
+    width: 3%;
+    float: left;
+    
+    @include mobile {
+          width: 5%;
+  }
+}
+.header_clumn_6{ //nav menu
+    width: 27%;
+    float: left;
+    
+    @include mobile {
+          width: 20%;
+  }
+}
+.header_clumn_7{
+    visibility: hidden;
+    width: 5%;
+    float: left;
+    clear:right;
+    
+    @include mobile {
+       width: 2%;
+  }
+}
+
+
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  //float: left;
+ // width: 70px;
+  height: 2em;
+  //margin-right: 15px;
 
   @include mobile {
     float: none;
@@ -180,24 +251,32 @@ img {
 }
 
 .site-info {
-  float: left;
-
+  //float: left;
+  position: relative;
+  bottom: 0.8em;
+  margin-top: 0em;
+  margin-bottom: 0em;
   @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
   }
 }
-/*
+
 .site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
+   //float: left;
+  // margin: 0,0,40px,0;
+  //color: #70d6e1;
   font-family: $helveticaNeue; 
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}*/
+  cursor: pointer; 
+  font-weight: 400;
+  font-size: 2em;
+/*   letter-spacing: 1px; */
+    
+    @include mobile {
+     font-size: 1.3em;
+  }
+}
 
 .site-description {
   margin: -5px 0 0 0;
@@ -216,10 +295,10 @@ nav {
   font-size: 24px;
   
   @include mobile {
-    float: none;
+    //float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: 1em;
   }
 
   a {
@@ -235,6 +314,81 @@ nav {
     }
   }
 }
+
+
+.container_content{
+   /* border-left: 1px solid grey;*/
+   /* border-bottom: 1px solid grey;*/
+    //border-radius: 0 0 0 0px;
+    //padding: 10px 160px;
+    //overflow: auto;
+     //max-width: 1640px;
+    width:100%;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    right: 0;
+    bottom: 40px;
+    
+}
+
+.container_clumn_1{
+    visibility: hidden;
+     width: 20%;
+     float: left;
+     clear: left;
+    
+     @include mobile {
+       width: 5%;
+  }
+}
+.container_clumn_2{//content
+     width: 55%;
+    float: left;
+    
+     @include mobile {
+        width: 75%;
+  }
+    
+}
+.container_clumn_3{
+    visibility: hidden;
+     width: 5%;
+    float: left;
+    
+     @include mobile {
+        width: 2%;
+  }
+}
+.container_clumn_4{ //side bar
+     width: 15%;
+    float: left;
+    
+    @include mobile {
+       clear: both;
+       float: none;
+       width: 40%;
+  }
+}
+.container_clumn_5{
+    visibility: hidden;
+     width: 5%;
+     float:left;
+    
+     @include mobile {
+       width: 1%;
+  }
+}
+.content{
+    /* border-left: 1px solid grey;*/
+   /* border-bottom: 1px solid grey;*/
+    border-radius: 0 0 0 0px;
+   // padding: 10px 160px;
+/*     max-width: 1440px; */
+/*     width: 100%; */
+    overflow: auto;
+}
+
 
 //
 // .main
@@ -271,10 +425,13 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
+  position: relative;
+  top: 40px;
+  bottom: 0px;
+  clear:both;
 }
 
 footer {
