@@ -15,7 +15,7 @@ I mentioned in my last blog ["Improving my blog site continuously"](http://kunxu
 
 There are other components in RWD, for my blog site, I mainly focus on these two components. 
 
-Perhaps Bootstrap is the most popular framework to support RWD. after I assess it, I think it's a big project to refactor my blog site to apply it. Therefore, to save time, I only change my CSS files and the main html file to support RWD. 
+Perhaps Bootstrap is the most popular framework to support RWD. After I assess it, I think it's a big project to refactor my blog site to apply it (Bootstrap). Therefore, to save time, I change my CSS files and the main html file directly to support RWD. 
 
 
   

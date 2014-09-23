@@ -20,6 +20,7 @@
     padding: 3px 10px 3px 2px;
     text-decoration: none;
     color: #262747;
+    word-wrap: break-word;
 }
 .sidebar sup{
 /*    display: table-cell; */
@@ -30,12 +31,12 @@
 	padding: 0;
 /*     display: table-row; */
     width: 100%;
-    white-space: nowrap;
+   /* white-space: nowrap;*/
     clear: both;
 }
 .sidebar h4{
     margin: 0;
-
+    word-wrap: break-word;
     padding:4px 4px 4px 6px;
    /* color: navy;*/
 /*     background: #82b7c9; */
