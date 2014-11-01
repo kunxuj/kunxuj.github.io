@@ -8,7 +8,7 @@ categories:
 ---
 
 
-In my last post ["Architect Title vs Architect Role"](http://kunxuj.github.io/architect-title-vs-role/), I wrote that  it's better to think architect role than architect title;  an architect role is a part you play in a team when doing architecture work; the person who takes architecture title may does different job than architecture work.
+In my previous post ["Architect Title vs Architect Role"](http://kunxuj.github.io/architect-title-vs-role/), I wrote that  it's better to think architect role than architect title;  an architect role is a part you play in a team when doing architecture work; the person who takes architecture title may does different job than architecture work.
 
 But what is architecture work? 
 

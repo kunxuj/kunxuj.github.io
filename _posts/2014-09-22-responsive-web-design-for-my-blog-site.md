@@ -8,7 +8,7 @@ categories:
 ---
 
 
-I mentioned in my last blog ["Improving my blog site continuously"](http://kunxuj.github.io/improving-my-blog-site-continuously/), my blog site looks very ugly on all mobile devices. To resolve this issue, I use "Responsive Web Design" (RWD) technologies. There are two major components in RWD:   
+I mentioned in my previous blog ["Improving my blog site continuously"](http://kunxuj.github.io/improving-my-blog-site-continuously/), my blog site looks very ugly on all mobile devices. To resolve this issue, I use "Responsive Web Design" (RWD) technologies. There are two major components in RWD:   
 
 - Fluid Grid layout
 - Media Queries 

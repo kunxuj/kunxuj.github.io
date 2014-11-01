@@ -28,7 +28,7 @@ I think it's useful if we know the difference. For example, we may not get confu
 
     Some projects are doing well without architects because someone without "architect" title is doing architecture job (act in an architect role). 
     
-    It's not difficult to understand why there is always a question: "do we really need an architect?". We may not need someone with an "architect" title, but we definitely need someone to do "architect" work (take the architect role). It's difficult to imagine that what the result is if some complex systems have no architecture work!
+    It's not difficult to understand why there is always a question: "do we really need an architect?". We may not need someone with an "architect" title, but we definitely need someone to do "architect" work (take the architect role). It's difficult to imagine what the result is if some complex systems have no architecture work!
     
     
 All in all, thinking "role" more than "title" will make our lives easy.

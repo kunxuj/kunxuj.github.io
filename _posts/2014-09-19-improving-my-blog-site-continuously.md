@@ -9,7 +9,7 @@ categories:
 ---
 
 
-In my last blog ["Adding a sidebar with Categories, Tags, and Archive sections into my blog pages"](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/), I said that I needed to fix some issues. Now after intermittent works during last several days, I'm very happy that I have fixed the following issues: 
+In my previous blog ["Adding a sidebar with Categories, Tags, and Archive sections into my blog pages"](http://kunxuj.github.io/add-a-sidebar-in-my-blog-pages/), I said that I needed to fix some issues. Now after intermittent works during last several days, I'm very happy that I have fixed the following issues: 
 
 - Can't filter a category/tag on "Articles by the category/tag" pages
 - Terrible general layout 
