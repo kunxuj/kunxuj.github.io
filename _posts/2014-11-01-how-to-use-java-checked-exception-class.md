@@ -4,8 +4,8 @@ title:  How to Use Java Checked Exception Classes
 tags: 
 - Exception
 categories:
-- development
 - java
+- development
 ---
 
 If we search "java checked Exception vs unchecked Exception" on the Internet, there are a lot of debates about which one is better and should be used. 
@@ -18,7 +18,7 @@ In classes hierarchy in one application, if an exception occurs from the lower l
 
 * If it can be handled by developers and end users not need to know, then handle it and log it in the middle of the hierarchy 
 
-* If developers don't known how to handle or it’s better to let end users know the exception, try to handle it if possible, log and display exception message (which should be understandable to end users) on UI layer - the highest layer in the hierarchy (for end users). 
+* If developers don't known how to handle or itï¿½s better to let end users know the exception, try to handle it if possible, log and display exception message (which should be understandable to end users) on UI layer - the highest layer in the hierarchy (for end users). 
 
 There are two ways to create Exception classes in the application: 
 
@@ -30,6 +30,6 @@ Note: If need to display exception messages to end users, exception messages may
 
 * Using exception code for the exception message is easy to convert later on the UI (highest) layer since codes (unique) are easier to be compared than string messages (may difficult to be unique)
 
-* If the exception classes are very specific, it’s easy to convert  messages based on the class name on the UI (higher) layer
+* If the exception classes are very specific, itï¿½s easy to convert  messages based on the class name on the UI (higher) layer
 
 In some situation, when we handle the unchecked Exceptions from the third party package or Web Service end point, we may run into some complexity, but above principles should be the same. 
