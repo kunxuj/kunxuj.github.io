@@ -64,31 +64,6 @@ http://stackoverflow.com/questions/3689838/difference-between-head-working-tree-
     During the practices, if find any issue or have question, Please remember that Internet is the best trainer and teacher!
 
 
- fast-forward vs (+) force update
-   
-    The + tells Git to update the reference even if it isn�t a fast-forward.
-    fast-forward and basic merge: http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
-    
-   
-   Because a branch in Git is in actuality a simple file that contains the 40 character SHA-1 checksum of the commit it points to, branches are cheap to create and destroy. Creating a new branch is as quick and simple as writing 41 bytes to a file (40 characters and a newline).
-   
-    
-    Generally it�s better to simply use the fetch and merge commands explicitly as the magic of git pull can often be confusing.
-    
-    rebase: http://git-scm.com/book/en/v2/Git-Branching-Rebasing
-    In general the way to get the best of both worlds is to rebase local changes you�ve made but haven�t shared yet before you push them in order to clean up your story, but never rebase anything you�ve pushed somewhere.
-  
-  advanced concepts: 
-    
-  The Refspec 
-  
-  fetch = +refs/heads/*:refs/remotes/origin/*
-	push = refs/heads/master:refs/heads/qa/master
-      fetch: source (local branch in remote repository): target (remote branch)
-      push:  source (local branch): target (local branch in remote repository)
-      
-  refs/heads; refs/remotes/origin/ see .git directory
-  
   
 
  
