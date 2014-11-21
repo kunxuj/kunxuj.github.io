@@ -4,9 +4,8 @@ title:  Understanding of EGit "Push,Fetch, Pull" Operations
 tags: 
 - git
 - egit
-- tools
 categories:
-- development
+- tools
 ---
 
 When I started to use EGit, I always got confused by the similar terms for the following operations in the EGit menu: 
@@ -45,6 +44,16 @@ Configuration, there are two configurations:
 > In .git/config file, above configuration will be located in the section of "remote.name"
          
 > Direct push may always push changes from different local branches based on configured push specification.
+
+> After adding files in an empty local repository which was cloned from remote repository, the EGit will ask to make push configuration when try to push. 
+
+* Pushing to a remote Branch:    
+EGit Menu Path:  Team -> Push Branch...   
+Configuration, there are two kinds of situation:   
+
+  * situation 1:  If the branch already has configuration in .git/config file, the EGit will use existing configuration.    
+  * situation 2:  If the branch has no configuration in .git/config file, the EGit will make and save configuration in the config file after push.    
+      
 
 ###Fetch
 
