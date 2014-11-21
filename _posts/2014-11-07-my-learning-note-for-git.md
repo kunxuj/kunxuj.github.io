@@ -3,9 +3,8 @@ layout: post
 title:  The Note for Learning Git
 tags: 
 - git
-- tools
 categories:
-- development
+- tools
 ---
 
 

@@ -4,7 +4,7 @@ title:  What is Architecture Work
 tags: 
 - architecture
 categories:
-- development
+- software architecture
 ---
 
 

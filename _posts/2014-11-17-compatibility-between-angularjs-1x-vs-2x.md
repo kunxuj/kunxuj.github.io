@@ -7,7 +7,6 @@ tags:
 - client mvc
 categories:
 - frontend
-- architecuture
 ---
 
 In our team, we have been used server side MVC such as Struts, JSF, Spring MVC, etc. for very long time.  They are very stable, very mature, but they tightly mixed server logic with presentation code. Sometimes it's not convenient to enhance or improve the front end code. So, I have planed to take advantage of loose coupling of the architecture of "restful API + client mvc" in my Team.    

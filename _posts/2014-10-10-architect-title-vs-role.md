@@ -4,7 +4,7 @@ title:  Architect Title vs Architect Role
 tags: 
 - architect
 categories:
-- development
+- software architecture
 ---
 
 
