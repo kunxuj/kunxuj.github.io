@@ -52,7 +52,7 @@ baseurl: ""
 markdown: kramdown
 highlighter: pygments
 permalink: /:title/
-relative_permalinks: true
+#relative_permalinks: true
 
 #pygments: true
 
