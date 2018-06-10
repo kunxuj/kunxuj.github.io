@@ -6,14 +6,14 @@
 	{% if post.categories[0] %}
 		Categories: 
 		{% for c in post.categories %}
-		<a class="category" href="/categories.html#{{c}}">{{c}}</a>/
+		<a class="category" href="/categories#{{c}}">{{c}}</a>/
 		{% endfor %}
 	{% if post.tags[0] %} - {% endif %}
 	{% endif %}
 	{% if post.tags[0] %}
 		 Tags: 
 		{% for t in post.tags %}
-		<span class="tag"><a href="/tags.html#{{t}}">{{t}}</a></span>
+		<span class="tag"><a href="/tags#{{t}}">{{t}}</a></span>
 		{% endfor %}
 	{% endif %}
 	- <span><a href="{{post.url}}"> [ Read more ] </a></span>

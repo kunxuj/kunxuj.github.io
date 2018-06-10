@@ -6,7 +6,7 @@
 		<ul>
 			{% for category in site.categories %}
 			<li>
-				<a onclick="redirect('/categories.html#{{ category[0] }}')"> 
+				<a onclick="redirect('/categories#{{ category[0] }}')"> 
 				{% if page.categories contains category[0] %}
 				<b>{{ category[0] }}</b>
 				{% else %}
@@ -22,7 +22,7 @@
 		<ul class="sidebar_tags">
 			{% for tag in site.tags %}
 <!-- 			<li> -->
-				<a onclick="redirect('/tags.html#{{ tag[0] }}')">
+				<a onclick="redirect('/tags#{{ tag[0] }}')">
 <!-- 				<a href="/blog/tag/testtag#{{ tag[0] }}"> -->
 				{% if page.tags contains tag[0] %}
 					<b>{{tag[0]}}</b>
@@ -41,9 +41,9 @@
 {% if page.date %}{% capture pageYear %}{{page.date| date: "%Y"}}{% endcapture %}{% endif %}
 {% for y in site.years reversed %}
 	{% if y  == pageYear %}
-	<li><b><a href="/archive.html#{{y}}">{{y}}</a></b></li>
+	<li><b><a href="/archive#{{y}}">{{y}}</a></b></li>
 	{% else %}
-	<li><a href="/archive.html#{{y}}">{{y}}</a></li>
+	<li><a href="/archive#{{y}}">{{y}}</a></li>
 	{% endif %}
 {% endfor %}
 		</ul>
