@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  What is Architecture Work
-tags: 
-- architecture
 categories:
-- software architecture
+- architecture
 ---
 
 
