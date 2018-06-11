@@ -12,8 +12,9 @@ Preparing to write some blogs with a lot of complicated math equations, I found 
 
 -  Using Jupyter Notebook to write a markdown article with math equations 
 
+```
     Note: MathJax in Jekyll site supports "$$" escape characters, but not "$"  
-
+```
 -  Download the "ipynb" file as a markdown file
 -  Copy the downloaded markdown file to "_posts" folder of this site.  
 -  Add the the YAML front matter block as other posts 
@@ -32,8 +33,9 @@ To let my Jekyll site to support math equations, I did the following modificatio
 - Make sure to use Kramdown markdown engine (defualt engine for Jekyll)
 - Add the following line in the "_layouts/default.html" to support MathJax: 
 
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
+```
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+```
 
 In addition, since I have to upgrade this 4 years old Jekyll site to the latest version (from version 2 to 3), I also did some changes to fix the incompatible issues (please see the change log in the Github repo). 
 

@@ -9,7 +9,7 @@ This blog site is only for my own entertainment purpose. If it's helpful to othe
 
 ### More Information
 
-I have been working in software development industry for more than ten years. I got involved into different business domains in different companies. Though my current job is mainly on back-end development, such as Java, Pyhton, Node.js, Event Driven Programming and multi-threading programming, I also spend some time on Machine Learning and other data science related work.
+I have been working in software development industry for more than ten years. I got involved into different business domains in different companies. Though my current job is mainly on back-end development, such as API, Web service, Event Driven Programming and multi-threading programming based on Java, Pyhton, Node.js, I also spend my spare time to research on Machine Learning and data science related areas.
 
 ### Contact me
 
