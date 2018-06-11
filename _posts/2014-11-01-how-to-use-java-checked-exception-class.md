@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  How to Use Java Checked Exception Classes
-tags: 
-- Exception
 categories:
 - java
 - development
