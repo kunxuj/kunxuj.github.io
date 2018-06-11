@@ -4,7 +4,7 @@ title:  Why A POC Is An Artifact of "Software Architecture"
 tags: 
 - poc
 categories:
-- software architecture
+- architecture
 ---
 
 POC is the abbreviation of [proof of concept](http://en.wikipedia.org/wiki/Proof_of_concept).   

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing my first Github blog without installation of Jekyll locally!
-tags: [testtag]
+tags: [jekyll]
 ---
 
 I have been interested in writing blogs on Github for a while. However after poked around in some articles on the Internet, I gave up since they had always asked to setup Jekyll environment locally first (I have so many client devices...) 
