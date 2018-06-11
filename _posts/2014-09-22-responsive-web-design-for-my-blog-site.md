@@ -2,7 +2,7 @@
 layout: post
 title:  Responsive web design for my blog site
 tags: 
-- responsive web design
+- responsive_web_design
 categories:
 - website
 ---

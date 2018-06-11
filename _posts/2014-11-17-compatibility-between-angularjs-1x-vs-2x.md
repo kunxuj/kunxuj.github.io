@@ -4,7 +4,7 @@ title:  Compatibility Issues Between AngularJS 1.x and 2.x
          - Rethink Angularjs as the Client MVC Framework
 tags: 
 - angularjs
-- client mvc
+- [client_mvc]
 categories:
 - frontend
 ---

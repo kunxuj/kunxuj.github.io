@@ -2,7 +2,7 @@
 layout: post
 title:  Some Arguments about Real "Restful" API
 tags: 
-- restful api
+- restful_api
 categories:
 - development
 ---
