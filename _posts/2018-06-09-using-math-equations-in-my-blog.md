@@ -12,9 +12,8 @@ Preparing to write some blogs with a lot of complicated math equations, I found 
 
 -  Using Jupyter Notebook to write a markdown article with math equations 
 
-```
-    Note: MathJax in Jekyll site supports "$$" escape characters, but not "$"  
-```
+     Note: MathJax in Jekyll site supports "$$" escape characters, but not "$"  
+
 -  Download the "ipynb" file as a markdown file
 -  Copy the downloaded markdown file to "_posts" folder of this site.  
 -  Add the the YAML front matter block as other posts 
